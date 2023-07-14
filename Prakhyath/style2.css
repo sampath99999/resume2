@@ -1,0 +1,26 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:5px;
+    grid-auto-rows: minmax(100px,auto);
+}
+h1{
+    color: white;
+}
+.wrapper{
+    border: 5px solid black;
+    max-width: 940px;
+    margin: 0 auto;
+}
+.wrapper>div{
+    padding: 1em;
+}
+.about{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border: 1px solid black;
+    background-color: rgb(44, 45, 46);
+}
+.left-column{
+    color: white;
+}
